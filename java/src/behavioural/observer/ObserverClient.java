@@ -1,7 +1,7 @@
 public class ObserverClient {
 
     public static void main(String[] args) {
-        // we add a change tracking entity between observer and subject to ensure to
+        // we add an entity change manager between observer and subject to ensure to
         // loose coupling between
         // the two and also to save the observers from getting overwhelmed with frequent
         // updates.
